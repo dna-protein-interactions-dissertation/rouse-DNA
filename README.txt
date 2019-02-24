@@ -4,4 +4,4 @@ The file model1.f90 will simulate the movement of a DNA chain consisting of 101 
 
 The script runs 1000 simulations at each of 10 initial separations between the protein (e.g. RNA polymerase) and the middle bead on the DNA chain. It outputs the proportion of simulations in which binding was successful.
 
- 
+The file model1.f90 is dependent on the module randgen.o and must be compiled with it.
